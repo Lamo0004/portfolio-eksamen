@@ -185,6 +185,7 @@ HR {
 
 .hr_orange {
   color: var(--orange);
+  margin-bottom: 0.5rem;
 }
 
 a {
@@ -208,6 +209,7 @@ li {
   font-size: 1rem;
 }
 
+/*** Forside ***/
 .tegning {
   margin-bottom: 2.5rem;
   padding: 0.5rem;
@@ -217,7 +219,6 @@ li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 5fr 1fr 1fr;
-  margin-bottom: 0rem;
 }
 
 .overskrift {
@@ -227,6 +228,11 @@ li {
 
 .end {
   text-align: end;
+}
+
+.grid_1-1_center {
+  display: grid;
+  place-items: center center;
 }
 
 /*** 02 ***/
@@ -284,10 +290,23 @@ li {
     margin-top: 1rem;
     place-items: center center;
   }
+  .grid_1-1_5-1-1 {
+    width: 415px;
+  }
 }
 
 @media (min-width: 1200px) {
   /*** 02, 03, 04 & 05 – fjerner margin over og under øverste billede ***/
+  h1 {
+    font-size: 7rem;
+  }
+
+  li {
+    font-size: 1.2rem;
+  }
+  .grid_1-1_5-1-1 {
+    width: 550px;
+  }
   .top {
     margin-block: 0rem;
   }
