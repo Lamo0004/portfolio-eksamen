@@ -201,12 +201,8 @@ a {
   padding-bottom: 1rem;
 }
 
-li {
-  list-style: none;
-  color: var(--sort);
-  font-family: "Oswald", sans-serif;
-  font-weight: 200;
-  font-size: 1rem;
+.grid_1-1_5-1-1 p {
+  margin-bottom: 0rem;
 }
 
 /*** Forside ***/
@@ -301,7 +297,7 @@ li {
     font-size: 7rem;
   }
 
-  li {
+  .grid_1-1_5-1-1 p {
     font-size: 1.2rem;
   }
   .grid_1-1_5-1-1 {

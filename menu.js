@@ -19,4 +19,3 @@ links.forEach((link) => {
   });
 });
 // Når brugeren klikker på et link i menuen, lukkes menuen. Dette gøres ved at fjerne klassen "active" på relevante elementer.
-// Bla bla //
