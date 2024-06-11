@@ -131,7 +131,7 @@ nav.active .menu li {
   }
 }
 
-/*** Overskrifter, brødtekst, link/knap og linjer ***/
+/*** Overskrifter, brødtekst, link/knap, billeder og linjer ***/
 h1 {
   color: var(--sort);
   font-family: "Oswald", sans-serif;
@@ -205,6 +205,11 @@ a {
   margin-bottom: 0rem;
 }
 
+img,
+.grid2_1-1 {
+  max-width: 70ch;
+}
+
 /*** Forside ***/
 .tegning {
   margin-bottom: 2.5rem;
@@ -271,11 +276,6 @@ a {
   .indryk {
     margin-inline: 5rem;
   }
-
-  img,
-  .grid2_1-1 {
-    max-width: 70ch;
-  }
 }
 
 /*** Forside lægger sig i grid når >900px ***/
@@ -331,6 +331,7 @@ a {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
+
   .cv {
     /*** Placering af cv-tekst ***/
     place-items: center start;
@@ -339,5 +340,12 @@ a {
   img,
   .grid2_1-1 {
     max-width: 200ch;
+  }
+
+  /*** 04 ***/
+  .grid_test {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr;
   }
 }
