@@ -253,9 +253,13 @@ img,
   margin-block: 1rem;
 }
 
-/*** 04 & 05 – fjerne et billede generelt (i mobilsite) ***/
+/*** 04 – fjerne et billede generelt (i mobilsite) ***/
 .fjerne {
   display: none;
+}
+/*** 05 – sætter margin  ***/
+.top2 {
+  margin-block: 1rem;
 }
 
 /*** Om mig ***/
@@ -340,12 +344,5 @@ img,
   img,
   .grid2_1-1 {
     max-width: 200ch;
-  }
-
-  /*** 04 ***/
-  .grid_test {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 2fr 1fr;
   }
 }
